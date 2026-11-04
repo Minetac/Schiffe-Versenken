@@ -1,0 +1,17 @@
+
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "ES2020",
+    "moduleResolution": "Node",
+    "outDir": "./dist/client",
+    "lib": [
+      "ES2020",
+      "DOM"
+    ],
+    "noEmitOnError": true
+  },
+  "include": [
+    "src/client.ts"
+  ]
+}

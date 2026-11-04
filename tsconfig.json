@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "lib": ["es2020", "dom"],
+        "module": "commonjs", // Damit Programm unabhängig von Node laufen kann (Vgl. Cherny S. 254)
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "esModuleInterop": true,
+        "strict": true,
+        "target": "es2020"
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
